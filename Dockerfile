@@ -1,4 +1,5 @@
-FROM ubuntu RUN adduser -S -D -H -h /xmrig-2.6.2 xminer
+FROM ubuntu 
+RUN adduser -S -D -H -h /xmrig-2.6.2 xminer
 RUN apt-get update && apt-get install -y wget
 RUN wget https://github.com/xmrig/xmrig/releases/download/v2.6.2/xmrig-2.6.2-xenial-amd64.tar.gz
 RUN tar -xvzf xmrig-2.6.2-xenial-amd64.tar.gz
